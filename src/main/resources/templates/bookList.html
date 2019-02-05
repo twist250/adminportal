@@ -57,24 +57,6 @@
 				stateSave: true
 			});
 		});
-		$('#bookListTable').DataTable({
-			dom: 'Bfrtip',
-			buttons: [
-				{
-				    extend: 'copyHtml5',
-					exportOptiond: {
-				        columns: [0, ':visible']
-					}
-				},
-				{
-				    extend: 'excelHtml5',
-                    exportOptiond: {
-                        columns: ':visible'
-                    }
-				},
-				'colvis'
-			]
-		});
 	</script>
 </body>
 </html>
